@@ -1,0 +1,26 @@
+.btn-disable {
+    pointer-events: none;
+    cursor: no-drop;
+  }
+ 
+  .simple-btn {
+    padding: 5px 10px;
+    transition: 0.3s all;
+    background-color:white;
+    border: 1px solid $light-blue;
+    &:hover {
+      background-color:$light-blue;
+    }
+    border-radius: 3px;
+  }
+  .undo-btn {
+    padding: 5px 10px;
+    transition: 0.3s all;
+    background-color:$light-blue;
+    border: 1px solid $white;
+    &:hover {
+      background-color:$white;
+    }
+    border-radius: 3px;
+  }
+  
